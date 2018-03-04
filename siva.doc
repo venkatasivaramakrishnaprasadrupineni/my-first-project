@@ -1,0 +1,10 @@
+});
+function basicinfo(basic){
+  var profile=document.getElementById('basics');
+  var name=document.getElement('h2');
+  name.innerHTML=basic.name;
+  profile.appendchild(name);
+  var phone=document.createElement("h3");
+  phone.innerHTML=basic.phone;
+  profile.appendchild(phone);
+    
